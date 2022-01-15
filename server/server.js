@@ -1,7 +1,7 @@
 import config from './../config/config'
 import app from './express'
 import mongoose from 'mongoose'
-import consola from 'consola';
+// import consola from 'consola';
 
 // Connection URL
 mongoose.Promise = global.Promise
@@ -14,5 +14,5 @@ app.listen(config.port, (err) => {
   if (err) {
     console.log(err)
   }
-  consola.success(`Server started on http://127.0.0.1:${config.port}`);
+  console.log(`Server started on http://127.0.0.1:${config.port}`);
 })
