@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "development": "nodemon",
-    "build": "webpack --mode=production --config webpack.config.server.js",
+    "build": "nodemon",
     "start": "NODE_ENV=production node ./dist/server.generated.js"
   },
   "engines": {
