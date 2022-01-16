@@ -3,5 +3,5 @@ module.exports.config = {
     port: process.env.PORT || 3007,
     jwtSecret: process.env.JWT_SECRET || 'IN_globulus_verITas',
     mongoUri: process.env.MONGODB_URI || process.env.MONGO_HOST || 'mongodb://' + (process.env.IP || 'localhost') + ':' + (process.env.MONGO_PORT || '27017') + '/qho',
-    request: { limit: '11mb' }
+    request: { limit: '12mb' }
 };
