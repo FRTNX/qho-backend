@@ -4,9 +4,9 @@
   "description": "Qho! server code",
   "main": "./src/server.js",
   "scripts": {
-    "start": "node ./src/server.js",
-    "build": "node ./src/server.js"
+    "start": "node ./src/server.js"
   },
+  "heroku-run-build-script": true,
   "engines": {
     "node": "14.8.0"
   },
